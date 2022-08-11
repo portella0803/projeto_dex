@@ -57,6 +57,7 @@ header{
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
 }
 
 nav > a{
@@ -80,6 +81,7 @@ nav > a:hover {
     transition-duration: 0.2s;
     text-shadow: 3px 1px 10px rgba(0, 0, 0, 0.274);
 }
+
 main{
     background-color: rgb(58, 57, 57);
     margin-top: 30px;
@@ -100,4 +102,249 @@ li{
     background-color: grey;
     margin: 10px;
     padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
 }
+
+.card{
+    background-color: #751005;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.card > p{
+    color: #ffff;
+    font-weight: 800;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.548);
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.card > h5{
+    margin: 10px;
+    margin-left: 5px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 600;
+    color: #ffff;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.normal{
+    background-color: var(--color-normal);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.fighting{
+    background-color: var(--color-fighting);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.flying{
+    background-color: var(--color-flying);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.poison{
+    background-color: var(--color-poison);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.ground{
+    background-color: var(--color-ground);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.rock{
+    background-color: var(--color-rock);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.bug{
+    background-color: var(--color-bug);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.ghost{
+    background-color: var(--color-ghost);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.steel{
+    background-color: var(--color-steel);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.fire{
+    background-color: var(--color-fire);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.water{
+    background-color: var(--color-water);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.grass{
+    background-color: var(--color-grass);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.electric{
+    background-color: var(--color-electric);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.psychic{
+    background-color: var(--color-psychic);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.ice{
+    background-color: var(--color-ice);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.dragon{
+    background-color: var(--color-dragon);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.dark{
+    background-color: var(--color-dark);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
+.fairy{
+    background-color: var(--color-fairy);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    font-family: var(--texts);
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.274);
+}
+
