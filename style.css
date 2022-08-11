@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --texts: 'Roboto', arial;
+    --title: 'Kanit', arial;
+    --color-bug: #A1BF34;
+    --color-dark: #5D4038;
+    --color-dragon: #683FBF;
+    --color-electric: #FDCD0B;
+    --color-fairy: #F685BD;
+    --color-fighting: #D42E2E;
+    --color-fire: #E86612;
+    --color-flying: #9E87E1;
+    --color-ghost: #7356A8;
+    --color-grass: #4CB050;
+    --color-ground: #DEB355;
+    --color-ice: #7DDFE8;
+    --color-normal: #BFB97D;
+    --color-poison: #A749B9;
+    --color-psychic: #EC407A;
+    --color-rock: #BDA537;
+    --color-steel: #B4B4CC;
+    --color-water: #1F97F6;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(185, 185, 185);
+}
+
+header{
+    background-color: #751005;
+    margin: 0px;
+    padding: 2em;
+    width: 100%;
+}
+
+#title{
+    font-family: var(--title);
+    color: #ffff;
+    font-weight: 500;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 3px 1px 10px rgba(0, 0, 0, 0.274);
+}
+
+#menu{
+    background-color: #851306;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #ffff;
+    text-shadow: 3px 1px 10px rgba(0, 0, 0, 0.274);
+}
+
+nav > a:hover {
+    background-color: #ffff;
+    color: #751005;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    transition-duration: 0.2s;
+    text-shadow: 3px 1px 10px rgba(0, 0, 0, 0.274);
+}
+main{
+    background-color: rgb(58, 57, 57);
+    margin-top: 30px;
+}
+
+ul{
+    height: auto;
+    float: left;
+    margin-right: -100%;
+    width: 85%;
+    margin-left: 7.2525%;
+}
+
+li{
+    display: block;
+    float: left;
+    position: relative;
+    background-color: grey;
+    margin: 10px;
+    padding-top: 30px;
+}
