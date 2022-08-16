@@ -26,14 +26,14 @@ body{
 main{
     background-color: #A5D2BD;
     max-width: 800px;
-    min-width: 400px;
+    min-width: 550px;
     margin: auto;
     padding: 1px;
     text-align: center;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.200);
 }
 
-#bulbasaur{
+#poke{
     background-color: var(--cor2);
     margin-left: 10em;
     margin-right: 10em;
@@ -53,7 +53,7 @@ h2{
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.200);
 }
 
-#bulbasaur > img{
+#poke > img{
     max-width: 90%;
     
 }
@@ -85,8 +85,14 @@ div > p{
     border-radius: 10px;
     margin: 5px;
 }
+#habilidade_principal{
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.200);
+    background-color: var(--cor1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+}
 
-#overgrow{
+#poke_habilit{
     box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.200);
     margin: 5px;
 }
