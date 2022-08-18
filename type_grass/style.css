@@ -10,6 +10,8 @@
     --cor5: #A5D2BD;
     --color-grass: #4CB050;
     --color-poison: #A749B9;
+    --color-psychic: #EC407A;
+
 }
 
 *{
@@ -184,6 +186,15 @@ li{
 
 .poison{
     background-color: var(--color-poison);
+    font-size: medium;
+    font-weight: 800;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.psychic{
+    background-color: var(--color-psychic);
     font-size: medium;
     font-weight: 800;
     margin-top: 20px;
