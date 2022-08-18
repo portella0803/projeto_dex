@@ -3,7 +3,7 @@
 :root{
     --texts: 'Roboto', arial;
     --title: 'Kanit', arial;
-    --cor1: #47755D;
+    --cor1: #58805b;
     --cor2: #77A695;
     --cor3: #5E8C61;
     --cor4: #91BF8F;
@@ -49,7 +49,7 @@ h2{
     text-align: center;
     font-weight: 400;
     margin: 30px;
-    background-color: #47755D;
+    background-color: var(--cor1);
     border-radius: 10px;
     text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.205);
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.200);
