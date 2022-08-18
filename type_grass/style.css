@@ -201,3 +201,17 @@ li{
     padding: 5px;
     border-radius: 50px;
 }
+
+#gif{
+    background-color: var(--cor2);
+    margin-top: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.200);    
+}
+
+#gif > img{
+    margin: 2em;
+}
