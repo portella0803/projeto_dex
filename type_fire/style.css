@@ -9,8 +9,7 @@
     --cor4: #f88440;
     --color-fire: #d15503;
     --color-flying: #9E87E1;
-
-
+    --color-normal: #BFB97D;
 }
 
 *{
@@ -185,6 +184,15 @@ li{
 
 .flying{
     background-color: var(--color-flying);
+    font-size: medium;
+    font-weight: 800;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.normal{
+    background-color: var(--color-normal);
     font-size: medium;
     font-weight: 800;
     margin-top: 20px;
