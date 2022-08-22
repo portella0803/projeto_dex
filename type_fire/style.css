@@ -3,12 +3,13 @@
 :root{
     --texts: 'Roboto', arial;
     --title: 'Kanit', arial;
-    --cor1: #D1D000;
-    --cor2: #D4770B;
-    --cor3: #D11109;
-    --color-grass: #4CB050;
-    --color-poison: #A749B9;
-    --color-psychic: #EC407A;
+    --cor1: #964110;
+    --cor2: #c06c3b;
+    --cor3: #f88440;
+    --cor4: #f88440;
+    --color-fire: #d15503;
+    --color-flying: #9E87E1;
+
 
 }
 
@@ -173,8 +174,8 @@ li{
     border-radius: 10px;
 }
 
-.grass{
-    background-color: var(--color-grass);
+.fire{
+    background-color: var(--color-fire);
     font-size: medium;
     font-weight: 800;
     margin-top: 20px;
@@ -182,17 +183,8 @@ li{
     border-radius: 50px;
 }
 
-.poison{
-    background-color: var(--color-poison);
-    font-size: medium;
-    font-weight: 800;
-    margin-top: 20px;
-    padding: 5px;
-    border-radius: 50px;
-}
-
-.psychic{
-    background-color: var(--color-psychic);
+.flying{
+    background-color: var(--color-flying);
     font-size: medium;
     font-weight: 800;
     margin-top: 20px;
