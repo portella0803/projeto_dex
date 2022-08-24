@@ -94,11 +94,11 @@ main{
 }
 
 ul{
+    margin-left: 15%;
+    margin-right: 15%;
     height: auto;
     float: left;
-    margin-right: -100%;
-    width: 85%;
-    margin-left: 7.2525%;
+    width: 80%;
 }
 
 li{
